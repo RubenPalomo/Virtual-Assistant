@@ -3,13 +3,13 @@
 **SPA** - Asistente virtual. Inspirado en otros ya existentes como Alexa o Siri, este asistente, llamado *Sari*, hace tareas como buscar en youtube música o videos y decirte la hora o el día del mes. Dispone de una interfaz gráfica simple en la que el usuario podrá elegir entre varios idiomas (como inglés, español, alemán y francés entre otros). El programa traduce todo lo que el usuario habla y se comunica con él en el mismo idioma.
 INSTALACIÓN:
 1. Una vez instalado Python en el ordenador instala los módulos que utilizará el programa:
-  - pip install datetime
-  - pip install colorama
-  - pip install googletrans
-  - pip install gTTS
-  - pip install pywhatkit
-  - pip install wikipedia
-  - pip install SpeechRecognition
+      - pip install datetime
+      - pip install colorama
+      - pip install googletrans
+      - pip install gTTS
+      - pip install pywhatkit
+      - pip install wikipedia
+      - pip install SpeechRecognition
 2. Descarga los archivos en una misma carpeta, abre el main.py y ejecútalo.
 <br><br>
 
