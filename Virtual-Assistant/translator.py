@@ -1,5 +1,4 @@
 import googletrans
-import settings
 
 # Function to translate the string using Google
 def translation(string, lang):
