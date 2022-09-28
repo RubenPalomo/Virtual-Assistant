@@ -10,6 +10,7 @@ INSTALACIÓN:
       - pip install pywhatkit
       - pip install wikipedia
       - pip install SpeechRecognition
+      - pip install playsound==1.2.2
 2. Descarga los archivos en una misma carpeta, abre el main.py y ejecútalo.
 <br><br>
 
@@ -23,4 +24,5 @@ INSTALLATION:
       - pip install pywhatkit
       - pip install wikipedia
       - pip install SpeechRecognition
+      - pip install playsound==1.2.2
 2. Download the files in the same folder, open main.py and run it.
