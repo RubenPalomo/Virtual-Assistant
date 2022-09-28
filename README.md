@@ -1,5 +1,5 @@
 # Virtual-Assistant
-
+![Logo Python](https://img.shields.io/pypi/pyversions/Django?color=w&logo=python&logoColor=yellow)
 **SPA** - Asistente virtual. Inspirado en otros ya existentes como Alexa o Siri, este asistente, llamado *Sari*, hace tareas como buscar en youtube música o videos, decirte la hora o el día del mes, contar chistes, traducir palabras u oraciones, y hasta cantar. Dispone de una interfaz gráfica simple en la que el usuario podrá elegir entre varios idiomas (como inglés, español, alemán y francés entre otros) aunque también puedes pedirle que te hable en otro idioma una vez elegido. El programa traduce todo lo que el usuario habla y se comunica con él en el mismo idioma.<br><br>
 INSTALACIÓN:
 1. Una vez instalado Python en el ordenador instala los módulos que utilizará el programa:
