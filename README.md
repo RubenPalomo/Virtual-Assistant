@@ -13,7 +13,7 @@ INSTALACIÓN:
       - pip install webbrowser
       - pip install pyjokes
       - pip install playsound==1.2.2
-2. Descarga los archivos en una misma carpeta, abre el main.py y ejecútalo.
+2. Descarga los archivos en una misma carpeta, abre el __init__.py y ejecútalo.
 <br><br><br>
 
 **EN** - Virtual assistant. Inspired by other existing ones such as Alexa or Siri, this assistant, called *Sari*, performs tasks such as searching for music or videos on YouTube and telling you the time or the day of the month. It has a simple graphical interface in which the user can choose between several languages (such as English, Spanish, German and French among others). The program translates everything the user speaks and communicates with him in the same language.<br><br>
@@ -29,4 +29,4 @@ INSTALLATION:
       - pip install webbrowser
       - pip install pyjokes
       - pip install playsound==1.2.2
-2. Download the files in the same folder, open main.py and run it.
+2. Download the files in the same folder, open __init__.py and run it.
