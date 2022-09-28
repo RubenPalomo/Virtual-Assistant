@@ -14,7 +14,7 @@ INSTALACIÓN:
       - pip install pyjokes
       - pip install playsound==1.2.2
 2. Descarga los archivos en una misma carpeta, abre el \_\_init__.py y ejecútalo desde la consola o desde un editor de código como Visual Studio Code.
-3. Asegúrate de tener el micrófono y los altavoces operativos.<br>
+3. Asegúrate de tener el micrófono y los altavoces operativos.<br><br>
 También puedes probar el programa ejecutando el .exe aunque se recomienda hacerlo desde un editor de código.
 <br><br><br>
 
@@ -32,5 +32,5 @@ INSTALLATION:
       - pip install pyjokes
       - pip install playsound==1.2.2
 2. Download the files in the same folder, open \_\_init__.py and run it from the console or from a code editor such as Visual Studio Code.
-3. Make sure you have your microphone and speakers working.<br>
+3. Make sure you have your microphone and speakers working.<br><br>
 You can also test the program by running the .exe although it is recommended to do it from a code editor.
