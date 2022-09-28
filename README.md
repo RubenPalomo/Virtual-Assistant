@@ -1,6 +1,6 @@
 # Virtual-Assistant
 
-**SPA** - Asistente virtual. Inspirado en otros ya existentes como Alexa o Siri, este asistente, llamado *Sari*, hace tareas como buscar en youtube música o videos y decirte la hora o el día del mes. Dispone de una interfaz gráfica simple en la que el usuario podrá elegir entre varios idiomas (como inglés, español, alemán y francés entre otros). El programa traduce todo lo que el usuario habla y se comunica con él en el mismo idioma.<br><br>
+**SPA** - Asistente virtual. Inspirado en otros ya existentes como Alexa o Siri, este asistente, llamado *Sari*, hace tareas como buscar en youtube música o videos, decirte la hora o el día del mes, contar chistes, traducir palabras u oraciones, y hasta cantar. Dispone de una interfaz gráfica simple en la que el usuario podrá elegir entre varios idiomas (como inglés, español, alemán y francés entre otros) aunque también puedes pedirle que te hable en otro idioma una vez elegido. El programa traduce todo lo que el usuario habla y se comunica con él en el mismo idioma.<br><br>
 INSTALACIÓN:
 1. Una vez instalado Python en el ordenador instala los módulos que utilizará el programa:
       - pip install datetime
@@ -19,7 +19,7 @@ INSTALACIÓN:
 También puedes probar el programa ejecutando el .exe aunque se recomienda hacerlo desde un editor de código.
 <br><br><br>
 
-**EN** - Virtual assistant. Inspired by other existing ones such as Alexa or Siri, this assistant, called *Sari*, performs tasks such as searching for music or videos on YouTube and telling you the time or the day of the month. It has a simple graphical interface in which the user can choose between several languages (such as English, Spanish, German and French among others). The program translates everything the user speaks and communicates with him in the same language.<br><br>
+**EN** - Virtual assistant. Inspired by other existing ones such as Alexa or Siri, this assistant, called *Sari*, performs tasks such as searching for music or videos on YouTube and telling you the time or the day of the month, tell jokes, translate words or sentences, and even sing. It has a simple graphical interface in which the user can choose between several languages (such as English, Spanish, German and French among others) although you can also ask him to speak to you in another language once chosen. The program translates everything the user speaks and communicates with him in the same language.<br><br>
 INSTALLATION:
 1. Once Python is installed on the computer, install the modules that the program will use:
       - pip install datetime
