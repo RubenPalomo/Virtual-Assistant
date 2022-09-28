@@ -11,7 +11,7 @@ def reply(text):
     text = text.replace("sari", "")
 
     if (text == ""):
-        return " "
+        return "Hi! Tell me what can I do for you"
     
     elif ("how" in text and ("are you doing" in text or "are you" in text or "are you doing" in text)):
         return "With the batteries charged!"

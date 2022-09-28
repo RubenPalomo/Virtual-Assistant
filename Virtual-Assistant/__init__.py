@@ -20,7 +20,7 @@ def centerWindow(r):
     width = r.winfo_reqwidth()
     screen_height = r.winfo_screenheight()
     screen_width = r.winfo_screenwidth()
-    x = (screen_width // 2) - (width//2)
+    x = (screen_width//2) - (width//2)
     y = (screen_height//2) - (height//2)
     r.geometry(f"+{x}+{y}")
 
