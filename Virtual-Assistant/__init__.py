@@ -68,6 +68,9 @@ def main():
             else:
                 print(Fore.GREEN + text)
                 isTimeToWait(text)
+                if (not wait):
+                    speaker.say(translator.translation(
+                        "Hi again! What can I do for you?", settings.getLanguage()))
 
 # Part of the graphical interface where there will be buttons that will be shown to the user to choose the language
 window = tkinter.Tk()
