@@ -1,4 +1,6 @@
 import pywhatkit
+import requests
+import json
 import datetime
 import settings
 import wikipedia
@@ -31,6 +33,35 @@ def reply(text):
         webbrowser.open("https://www.google.com/search?q=" + text,
                         new=2, autoraise=True)
         return "This is what I found on Google"
+
+    # Reply to ask about the weather in a place
+    elif ("weather" in text):
+        # We need an api to access at the service
+        api = "c9df8fe0664a7999de8d77b1ddf7759c"
+        # First we get the city name that the user is requesting
+        data = text.split(" ")
+        i = data.index("in") + 1
+        city = ""
+        while i < len(data):
+            city += data[i]
+            i += 1
+        # Then we have all the requeriments to get the weather information
+        base_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api}"
+        response = requests.get(base_url).json()
+        # If the response is a 429 code, we have exceeded the daily query limit
+        if (response["cod"] == "429"):
+            return "Daily query limit exceeded"
+        # Else if we get the 404 code it means the city was not found
+        elif (response["cod"] == "404"):
+            return "The city you specified has not been found "
+        else:
+            # We have to transform the grades to celsius
+            grades = (response["main"]["temp"] - 32) * 5 / 90
+            # And then we have all the elements to respond
+            return "It's a " + \
+                response["weather"][0]["description"] + \
+                    ", with " + str(round(grades)) + \
+                    " degrees Celsius."
 
     # Reply to look for information in Wikipedia
     elif ("information" in text or "wikipedia" in text):
